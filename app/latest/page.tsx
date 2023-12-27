@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 const LatestReleases = () => {
     return (
@@ -19,7 +20,7 @@ const LatestReleases = () => {
                 <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -27,7 +28,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -35,7 +36,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -43,7 +44,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -51,7 +52,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -59,7 +60,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -67,7 +68,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
@@ -75,7 +76,7 @@ const LatestReleases = () => {
                     </li>
                     <li className="flex flex-col gap-5 group cursor-pointer">
                         <div className="w-full relative">
-                            <img src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
+                            <Image width={1000} height={1000} src="/mix1.jpg" alt="Mix 1" className="rounded-md w-full h-80 object-cover"/>
                             <div
                                 className="bg-black/40 absolute group-hover:h-80 duration-300 h-5 rounded-md top-0 border-0 right-0 left-0"></div>
                         </div>
