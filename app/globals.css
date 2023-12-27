@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html,
+body,
+root{
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'Rockville Solid Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Rockville Solid Regular'), url('../public/fonts/Rockville Solid.woff') format('woff');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+header{
+  background-image: url("/slider1.jpg");
 }
+#banner1{
+  background-image: url("/profile1.jpg");
+}
+#banner2{
+  background-image: url("/profile3.jpg");
+}
+footer{
+  background-image: url("/footer-bg.png");
+}
+
+
